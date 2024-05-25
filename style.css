@@ -24,7 +24,8 @@ header{
 
 .head{
     text-align: center;
-    margin-left: 45%;
+    margin-left: 40%;
+    width: 10%;
     text-decoration: none;
     color: #f7ede2;
 }
@@ -126,18 +127,6 @@ header{
     margin-left: 39%;
 }
 
-.cal{
-    margin-left: 41.3%;
-}
-
-.spo{
-    margin-left: 44%;
-}
-
-.mus{
-    margin-left: 43.4%;
-}
-
 ul{
     margin-top: 140px;
     list-style: none;
@@ -234,4 +223,98 @@ html {
 .endh1{
     margin: 20px 30px;
     text-align: center;
+}
+
+@media (max-width: 910px) {
+    .img{
+        font-size: 20px;
+    }
+    .d{
+        margin-top: -60px;
+    }
+    .go{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 783px) {
+    .img{
+        height: 800px;
+        padding: 50px;
+    }
+    .d{
+        margin-top: 20px;
+    }
+    .w{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 540px){
+    .img{
+        height: 1000px;
+    }
+    .d{
+        margin-top: 10px;
+    }
+    .cahg{
+        font-size: 28px;
+    }
+    .f{
+        margin-left: 13%;
+    }
+    .p{
+        margin-left: 11%;
+    }
+    .wr{
+        margin-left: 20%;
+    }
+    .pai{
+        margin-left: 22%;
+    }
+    .len{
+        margin-left: 9%;
+    }
+}
+
+@media (max-width: 445px){
+    .img{
+        height: 1400px;
+    }
+    .w{
+        height: 150px;
+    }
+    .cahg{
+        font-size: 20px;
+        text-align: center;
+    }
+    .f{
+        margin-left: 4%;
+    }
+    .p{
+        margin-left: 3.9%;
+    }
+    .wr{
+        margin-left: 4.2%;
+    }
+    .pai{
+        margin-left: 4%;
+    }
+    .len{
+        margin-left: 3.2%;
+    }
+}
+
+@media (max-width: 1234px){
+    .wer{
+        display: block;
+        padding: 10px;
+        margin: 150px auto 0 auto;
+        width: 100%;
+    }
+    .a{
+        width: 50%;
+        margin: 20px auto;
+        height: 100px;
+    }
 }
